@@ -16,6 +16,7 @@
         data izin/tugas belajar, meminimalkan kesalahan dalam penulisan data
         serta mengurangi biaya ongkos kirim berkas. Berkas fisik yang ada di
         Bapak/Ibu dapat diarsipkan jika sewaktu-waktu diperlukan.
+        <br/>
         <br />
         Terimakasih
         <br />
