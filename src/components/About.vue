@@ -1,7 +1,12 @@
 <template>
   <div class="about">
     <div class="about-text text-start">
-      <h1 class="fw-bold text-justify animate__animated animate__fadeInDown"><img class="animate__animated animate__fadeInRight" src="../assets/about.svg" alt="about-pict" style="width:500px;height:500px; margin-left:35px;margin-top:-60px;">
+      <h1 class="fw-bold text-justify animate__animated animate__fadeInDown">
+        <img
+          class="about-image animate__animated animate__fadeInRight"
+          src="../assets/about.svg"
+          alt="about-pict"
+        />
         Selamat datang di website ini <br />
         kepada Bapak/Ibu admin izin/tugas belajar wilayah <br />
         Provinsi Aceh, Jawa Tengah, Sulawesi Selatan dan unit Eselon I Pusat
@@ -40,10 +45,25 @@ export default {};
 }
 
 img {
-  float: right;
+  float: clear;
 }
 
-:root {
-  --animate-delay: 0.5s;
+.about-image {
+  width: 350px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+@media (min-width: 1200px) {
+  .about-image {
+    width: 500px;
+    height: 500px;
+    margin: -60px 0 0 35px;
+  }
+  img {
+    float: right;
+  }
 }
 </style>>

@@ -125,4 +125,10 @@ h5 {
   scale: 1.1;
   border: 1px solid #198754 ;
 }
+.permission {
+  margin: 1150px 0;
+}
+@media (min-width: 1200px) {
+
+}
 </style>

@@ -8,7 +8,9 @@
           src="../assets/logo_depag.png"
           alt="logo-depag"
         />
-        <h4 class="lead fw-bold mt-3 animate__animated animate__fadeInUp">BIRO KEPEGAWAIAN</h4>
+        <h4 class="lead fw-bold mt-3 animate__animated animate__fadeInUp">
+          BIRO KEPEGAWAIAN
+        </h4>
         <h5 class="sub-lead animate__animated animate__fadeInUp">
           SEKRETARIAT JENDERAL KEMENTERIAN AGAMA REPUBLIK INDONESIA
         </h5>
@@ -19,8 +21,6 @@
 </template>
 
 <script>
-
-
 export default {
   name: "Jumbotron",
 };
@@ -36,19 +36,34 @@ export default {
 }
 
 .hero img {
-  width: 450px;
+  width: 350px;
 }
 
-.hero h4, h5 {
+.hero h4,
+h5 {
   color: #fff;
   text-shadow: 2px 2px #000;
 }
 
 .hero h4 {
-  font-size: 50px;
+  font-size: 35px;
 }
 
 .hero h5 {
-  font-size: 30px;
+  font-size: 25px;
+}
+
+@media (min-width: 1200px) {
+  .hero img {
+    width: 450px;
+  }
+
+  .hero h4 {
+    font-size: 50px;
+  }
+
+  .hero h5 {
+    font-size: 30px;
+  }
 }
 </style>
