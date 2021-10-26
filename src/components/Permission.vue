@@ -128,7 +128,10 @@ h5 {
 .permission {
   margin: 1150px 0;
 }
-@media (min-width: 1200px) {
 
+@media (min-width: 1200px) {
+  .permission {
+  margin: 20px 0;
+}
 }
 </style>
